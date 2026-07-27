@@ -1,0 +1,15 @@
+{
+  "database": {
+    "host": "${DB_HOST}",
+    "port": "${DB_PORT}",
+    "name": "myapp_${NODE_ENV}"
+  },
+  "server": {
+    "port": 3000,
+    "debug": false
+  },
+  "logging": {
+    "level": "${LOG_LEVEL}",
+    "file": "/var/log/myapp_${NODE_ENV}.log"
+  }
+}

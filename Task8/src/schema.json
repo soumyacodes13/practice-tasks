@@ -1,0 +1,15 @@
+{
+  "database": {
+    "host": "string",
+    "port": "number",
+    "name": "string"
+  },
+  "server": {
+    "port": "number",
+    "debug": "boolean"
+  },
+  "logging": {
+    "level": "string",
+    "file": "string"
+  }
+}

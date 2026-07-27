@@ -1,0 +1,16 @@
+{
+  "name": "task11",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --test tests/EventEmitter.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
