@@ -21,8 +21,8 @@ await User.delete(1);
 ```
 
 **Deliverables:**
-- [ ] Model definition
-- [ ] Query builder
-- [ ] CRUD operations
-- [ ] Relationship support (optional)
-- [ ] Documentation
+- [x] Model definition
+- [x] Query builder
+- [x] CRUD operations
+- [x] Relationship support (optional - not requested in PRD core, schema types/queries implemented)
+- [x] Documentation

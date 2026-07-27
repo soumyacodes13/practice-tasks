@@ -1,10 +1,11 @@
 {
   "name": "any-ai-tasks",
   "version": "1.0.0",
+  "type": "module",
   "description": "Shared dependencies for all Node.js tasks",
   "private": true,
   "scripts": {
-    "test:all": "jest Task3/ Task4/ Task6/ Task7/ Task8/ Task9/ Task10/ && node --test Task11/tests/EventEmitter.test.js",
+    "test:all": "jest Task3/ Task4/ Task6/ Task7/ Task8/ Task9/ Task10/ && node --test Task11/tests/EventEmitter.test.js && node --test Task12/tests/orm.test.js",
     "test:t3": "jest Task3/",
     "test:t4": "jest Task4/",
     "test:t6": "jest Task6/",
@@ -13,6 +14,7 @@
     "test:t9": "jest Task9/",
     "test:t10": "jest Task10/",
     "test:t11": "node --test Task11/tests/EventEmitter.test.js",
+    "test:t12": "node --test Task12/tests/orm.test.js",
     "start:t3": "node Task3/analyzer.js",
     "start:t4": "node Task4/cli.js",
     "start:t6": "node Task6/cli.js",

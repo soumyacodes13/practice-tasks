@@ -43,6 +43,9 @@ Complete **Task 3: Test Case Writer** and begin **Task 4: Password Strength Chec
 - **Task 11: Event Emitter System**
     - **Status:** ✅ Completed
     - **Outcome:** Pub-Sub event emitter supporting one-time listeners, bidirectional wildcard matching, concurrent async handlers, robust error isolation, and 7 passing Node.js native tests.
+- **Task 12: Simple ORM-like Layer**
+    - **Status:** ✅ Completed
+    - **Outcome:** Lightweight in-memory ORM with schema validation, CRUD operations, and 2 passing Node.js native tests.
 
 ### 📉 Overall Progress Tracking
 | Task | Status | Date | Notes |
@@ -58,10 +61,10 @@ Complete **Task 3: Test Case Writer** and begin **Task 4: Password Strength Chec
 | 9. Simple Cache Layer | ✅ | 2026-07-27 | TTL & LRU eviction, stats tracker, 9 Jest tests |
 | 10. Logger with Levels | ✅ | 2026-07-27 | Logger class, multiple formatters/transports, 8 Jest tests |
 | 11. Event Emitter | ✅ | 2026-07-27 | Pub-Sub model, bidirectional wildcards, 7 native tests |
-| 12. Template Engine | ⬜ | — | Not started |
+| 12. Simple ORM Layer | ✅ | 2026-07-27 | Model schema validation, CRUD operations, 2 native tests |
 
 ### ⏳ Pending Items
-- Start Task 12: Simple ORM-like Layer.
+- None.
 
 ### 🤝 Delegated Tasks
 - **User:** Review the test checklist generated for Task 3 once complete.
@@ -89,14 +92,15 @@ Complete **Task 3: Test Case Writer** and begin **Task 4: Password Strength Chec
 - Task 9 — Simple Cache Layer (9/9 tests passing)
 - Task 10 — Logger with Levels (8/8 tests passing)
 - Task 11 — Event Emitter System (7/7 tests passing)
+- Task 12 — Simple ORM-like Layer (2/2 tests passing)
 
 ### 🔄 In Progress
 - None
 
 ### 📊 Running Totals
-- **Tasks completed:** 11 / 12
-- **Tests written & passing:** 11 (T7) + 32 (T8) + 9 (T9) + 8 (T10) + 7 (T11) = 67 new tests today
-- **Tasks remaining:** 1 (T12)
+- **Tasks completed:** 12 / 12
+- **Tests written & passing:** 11 (T7) + 32 (T8) + 9 (T9) + 8 (T10) + 7 (T11) + 2 (T12) = 69 new tests today
+- **Tasks remaining:** 0
 
 ---
 *Next update: End of the Day*
