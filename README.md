@@ -1,17 +1,34 @@
 # any.ai Practice Tasks
 
-This repository contains various Javascript (Node.js) and Python practice tasks.
+A collection of lightweight Python and Node.js solutions built to practice core software development concepts (APIs, rate limiters, memory caches, parsing, validation, etc.).
 
-## Setup
+## 🚀 Quick Start
 
-1. Install Javascript dependencies:
+1. **Clone & Enter:**
+   ```bash
+   git clone <repository-url>
+   cd any.ai
+   ```
+2. **Install JavaScript dependencies:**
    ```bash
    npm install
    ```
-2. *(Optional)* Install Python dependencies (only needed for Tasks 1, 2, and 5):
+3. **Install Python dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-## Running Tasks & Tests
-Refer to [HOW_TO_RUN.md](file:///c:/Users/SOUMYA/Documents/any.ai/HOW_TO_RUN.md) for quick-reference scripts to run and test each individual task from the project root.
+## 🏃 Running and Testing
+
+All scripts are executed from the root directory.
+
+* **Run all Node.js tests:**
+  ```bash
+  npm run test:all
+  ```
+* **Run all Python tests:**
+  ```bash
+  python -m pytest Task1/ Task2/ Task5/
+  ```
+
+For details on running specific task demos or tests (e.g. Rate Limiter, Cache Layer, Password Checker), refer to [HOW_TO_RUN.md](file:///c:/Users/SOUMYA/Documents/any.ai/HOW_TO_RUN.md).
