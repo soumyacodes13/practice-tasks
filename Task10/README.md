@@ -1,78 +1,14 @@
-# Logger with Levels
+# Task 10: Logger with Levels
 
-## Description
+## System Design
+The Logger system is designed to provide configurable, level-based logging. It allows filtering of log messages based on a predefined minimum threshold, ensuring that only messages of sufficient importance are captured or displayed.
 
-A lightweight logging library for Node.js supporting multiple log levels, configurable output formats, and console/file transports.
+## Workflow
+1. **Initialization**: The Logger is instantiated with a minimum log level (e.g., INFO).
+2. **Logging**: The log(level, message) method is invoked.
+3. **Filtering**: The Logger compares the message level with the configured minimum level.
+4. **Formatting & Output**: If the message passes the threshold, it is formatted with a timestamp and the log level, then written to the destination (console).
 
-## Features
-
-* DEBUG, INFO, WARN, and ERROR log levels
-* Configurable minimum log level
-* Automatic timestamps
-* Metadata support
-* Pretty and JSON output formats
-* Console and file transports
-
-## Installation
-
-```bash
-git clone <repository-url>
-cd task10
-npm install
-```
-
-## Usage
-
-Run the demo:
-
-```bash
-npm start
-```
-
-Run the tests:
-
-```bash
-npm test
-```
-
-Example:
-
-```javascript
-const Logger = require("./logger");
-
-const logger = new Logger({
-    level: "INFO",
-    format: "pretty"
-});
-
-logger.info("User logged in", { userId: 123 });
-logger.warn("Low disk space");
-logger.error("Database error");
-```
-
-## API
-
-| Method                     | Description                |
-| -------------------------- | -------------------------- |
-| `setLevel(level)`          | Set the minimum log level. |
-| `debug(message, metadata)` | Log a DEBUG message.       |
-| `info(message, metadata)`  | Log an INFO message.       |
-| `warn(message, metadata)`  | Log a WARN message.        |
-| `error(message, metadata)` | Log an ERROR message.      |
-
-## Design
-
-* Logger handles log filtering and coordination.
-* Formatter supports Pretty and JSON output.
-* Console transport prints logs to the terminal.
-* File transport appends logs to `logs/app.log`.
-
-## Technologies
-
-* Node.js
-* JavaScript (ES6)
-* Jest
-
-## License
-
-Created as part of a technical assessment for educational purposes.
+## File Attribution
+- **logger.py**: Implements the Logger class, defines log level constants (DEBUG, INFO, WARNING, ERROR), and handles formatting and threshold filtering logic.
+- **	est_logger.py**: Contains comprehensive unit tests to validate the filtering logic and ensure correct message formatting.

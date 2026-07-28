@@ -1,14 +1,32 @@
-# Simple Cache Layer
+### Task 9: Simple Cache Layer
 
-## Description
+**PRD:**
+> Implement an in-memory cache with TTL (time-to-live) support. The cache should auto-expire entries, support different data types, and provide cache statistics.
 
-A lightweight in-memory cache for Node.js with support for:
+**Requirements:**
+```javascript
+// API
+cache.set('key', 'value', 300);     // Set with 5min TTL
+cache.get('key');                    // Get value
+cache.del('key');                    // Delete
+cache.clear();                       // Clear all
+cache.has('key');                    // Check existence
+cache.ttl('key', 600);               // Update TTL
+cache.stats();                       // Get statistics
+```
 
-* TTL (Time-To-Live) expiration
-* Automatic cleanup of expired entries
-* Multiple JavaScript data types
-* Cache statistics (hits, misses, hit rate)
+**Statistics:**
+- Total entries
+- Total hits
+- Total misses
+- Hit rate
 
+**Deliverables:**
+- [ ] Cache implementation
+- [ ] TTL support
+- [ ] Statistics tracking
+- [ ] Thread-safe (if applicable)
+- [ ] Test suite
 ## Installation
 
 ```bash

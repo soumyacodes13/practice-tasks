@@ -118,7 +118,7 @@ function applyDiscount(price, customerType, couponCode) {
 ```
 
 **Deliverables:**
-- [ ] Test case checklist table
+- [x] Test case checklist table
 - [ ] Actual test code (Jest/Pytest)
 - [ ] Coverage report
 
@@ -505,16 +505,16 @@ Track your completed tasks:
 |------|--------|------|-------|
 | 1. README Generator | ✅ | 2026-07-27 | CLI tool with pytest suite |
 | 2. Todo List API | ✅ | 2026-07-27 | FastAPI REST API with pytest suite |
-| 3. Test Case Writer | ✅ | | |
-| 4. Password Checker | ✅ | | |
-| 5. URL Shortener | ✅ | | |
-| 6. Data Validator | ✅ | | |
-| 7. Rate Limiter | ✅ | | |
-| 8. Config Manager | ✅ | | |
-| 9. Cache Layer | ✅ | | |
-| 10. Logger | ✅ | | |
-| 11. Event Emitter | ✅ | | |
-| 12. Simple ORM | ⬜ | | |
+| 3. Test Case Writer | ✅ | 2026-07-27 | Bulleted checklist & Jest tests |
+| 4. Password Checker | ✅ | 2026-07-27 | 7-point scoring & Inquirer CLI |
+| 5. URL Shortener | ✅ | 2026-07-27 | FastAPI with custom alias & redirection |
+| 6. Data Validator | ✅ | 2026-07-27 | Schema validation & 50+ Jest tests |
+| 7. Rate Limiter | ✅ | 2026-07-27 | Per-IP middleware, window reset, 11 Jest tests |
+| 8. JSON Config Manager | ✅ | 2026-07-27 | Nested get/set, env interpolation, 32 Jest tests |
+| 9. Simple Cache Layer | ✅ | 2026-07-27 | TTL & LRU eviction, stats tracker, 9 Jest tests |
+| 10. Logger | ✅ | 2026-07-27 | Logger class, multiple formatters/transports, 8 Jest tests |
+| 11. Event Emitter | ✅ | 2026-07-27 | Pub-Sub model, bidirectional wildcards, 7 native tests |
+| 12. Simple ORM | ✅ | 2026-07-27 | Model schema validation, CRUD operations, 5 pytest tests |
 
 ---
 
