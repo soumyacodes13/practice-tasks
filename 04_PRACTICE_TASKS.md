@@ -509,11 +509,11 @@ Track your completed tasks:
 | 4. Password Checker | ✅ | | |
 | 5. URL Shortener | ✅ | | |
 | 6. Data Validator | ✅ | | |
-| 7. Rate Limiter | ⬜ | | |
-| 8. Config Manager | ⬜ | | |
-| 9. Cache Layer | ⬜ | | |
-| 10. Logger | ⬜ | | |
-| 11. Event Emitter | ⬜ | | |
+| 7. Rate Limiter | ✅ | | |
+| 8. Config Manager | ✅ | | |
+| 9. Cache Layer | ✅ | | |
+| 10. Logger | ✅ | | |
+| 11. Event Emitter | ✅ | | |
 | 12. Simple ORM | ⬜ | | |
 
 ---

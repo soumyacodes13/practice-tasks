@@ -41,7 +41,7 @@ All commands below should be run from the **project root directory**: `c:\Users\
 | Task 9 | JS | `npm run start:t9` | `npm run test:t9` |
 | Task 10 | JS | `npm run start:t10` | `npm run test:t10` |
 | Task 11 | JS | *(no demo)* | `npm run test:t11` |
-| Task 12 | JS | *(no demo)* | `npm run test:t12` |
+| Task 12 | Python | *(no demo)* | `python -m pytest Task12/test.py` |
 
 ---
 
@@ -55,7 +55,7 @@ npm run test:all
 
 ```bash
 # Run each python suite separately (avoids module naming collisions on 'main')
-python -m pytest Task1/; python -m pytest Task2/; python -m pytest Task5/
+python -m pytest Task1/; python -m pytest Task2/; python -m pytest Task5/; python -m pytest Task12/test.py
 ```
 
 ---
@@ -197,10 +197,10 @@ npm run test:t11
 
 ---
 
-### Task 12 — JS: Simple ORM Layer
-> Lightweight in-memory ORM with schema validation and CRUD operations.
+### Task 12 — Python: Simple ORM Layer
+> Lightweight ORM-like interface for database operations: model definition, querying, and relationships.
 
 ```bash
 # Test
-npm run test:t12
+python -m pytest Task12/test.py
 ```
